@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/redhat-ai-dev/ai-template-bootstrap-app:latest # use pre-built to bootstrap
+        - image: quay.io/tpetkos/codegen-210325:be8f4a83191a73be96d156fb705e11d03f673242@sha256:cbd343f636b40c2d675a51eb66469038c9b130ec071377e76582ab033e44824a # use pre-built to bootstrap
           name: app-inference
